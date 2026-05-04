@@ -1,10 +1,61 @@
 # business-intelligence-insights-dashboard
+## Project Overview
 In this impressive project, you can easily manage nearly 8 million transactions. I processed the data, resolved any issues, and handled any null values ​​to facilitate informed decision-making. I also implemented specific filters to streamline the process. For this project, I retrieved data from CSV files for multiple years: 2011, 2012, 2013, 2014, 2015, 2016, 2017, and 2018.
-##First, using the M language in PowerQuery, I retrieved all the files and merged them into a single file.
-##Second, I extracted the tables I wanted to use for this report, such as the product table, the channel table, and the region table.
-##Third, the most important question was: what do I want from this data, and how can I easily benefit decision-makers? Fourth, I developed a plan outlining my focus for this project. On the first page, I generally focused on total sales for each year and also created a metric using DAX functions: the difference between sales in each year and the previous year, and the number of units sold in a specific year. 
-The previous year and the average prices for each year and the year before that—you can easily control all of this. You can easily specify the products, regions, and channels you want. I also want to remind you that you easily control over 8 million transactions.
 
-I also created realistic profit distribution models for each category, each product, and each region and sales channel. This facilitates decision-making by identifying the best-selling products in a given year, region, or channel. This also helps us make critical decisions to increase sales of specific products. Furthermore, it helps us identify the most in-demand products in each region. I also created various metrics, including: the lowest sales volume for the product, the highest sales volume for the product, the number of units sold in a specific region, and the number of units sold in a specific channel.
 
-On the second page, the focus is more on regions to provide all the details that can help us make the right decisions for each region. I presented the top five best-selling products for each region. There are many more details you can review. Understanding each region's product sales in as much detail as possible. This includes detailed sales figures, showing sales volumes in previous years, average prices for each product over the years, and how these factors impact sales. The second page, considered the "golden page" for each region, provides all the necessary information for informed decision-making. It details each region's sales performance. 
+##  Tools and Technologies
+`Power BI` · `Power Query (M Language)` · `DAX` · `Data Modeling`
+
+
+ **Fully Dynamic** — Every metric, visual, and filter updates instantly based on your selections across Product, Region, Year, and Sales Channel — giving users complete control over 8M+ transactions in real time.
+
+---
+
+##  Step 1 — Data Retrieval and Preparation
+Using the **M Language in Power Query**, I retrieved all source files and consolidated them into a single, unified dataset. From there, I extracted the core dimension tables needed for analysis — including the **Product**, **Channel**, and **Region** tables — and built a clean data model ready for reporting.
+
+---
+
+## Step 2 — Defining the Business Questions
+Before building anything, I asked the most important question: *What does a decision-maker actually need from this data?*
+
+The answer shaped the entire structure of the report into two focused pages.
+
+---
+
+##  Page 1 — Executive Sales Overview
+This page provides a bird's-eye view of sales performance across all years, with full flexibility to drill down.
+
+**DAX Metrics Built:**
+- Total sales per year
+- Year-over-Year (YoY) sales variance
+- Units sold per year vs. the previous year
+- Average selling price per year and its YoY change
+
+**Interactivity:**
+All visuals respond dynamically to slicers for **Product**, **Region**, and **Sales Channel** — giving users complete control over the view.
+
+**Profit Distribution Models:**
+I developed realistic profitability models broken down by category, product, region, and sales channel. These models make it easy to:
+- Identify top-selling products in any given year, region, or channel
+- Make targeted decisions to improve sales of underperforming products
+- Pinpoint the most in-demand products per region
+
+**Supporting Metrics:**
+- Lowest & highest sales volume per product
+- Units sold per region and per sales channel
+
+---
+
+##  Page 2 — Regional Deep Dive *("The Golden Page")*
+This page goes deeper — dedicated entirely to regional performance analysis with the level of detail needed for confident, region-specific decisions.
+
+**What's included:**
+- Top 5 best-selling products for each region
+- Detailed sales figures with historical year-over-year comparisons
+- Average product prices across years and their correlation with sales volumes
+- A complete regional sales breakdown to support strategic planning
+
+This page was built with one purpose: to give regional managers and executives everything they need in one place.
+
+---
